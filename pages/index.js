@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Projects from "../components/Projects.jsx";
+import TechStack from "../components/TechStack.jsx";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>Madden Lockin</h1>
+                <Projects />
+                <TechStack />
 
                 <div className={styles.grid}>
                     <a href="https://nextjs.org/docs" className={styles.card}>
