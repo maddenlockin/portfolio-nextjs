@@ -19,9 +19,11 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>Madden Lockin</h1>
-                <TechStack />
-                <Experience />
-                <Projects />
+                <div className={styles.layout}>
+                    <TechStack />
+                    <Experience />
+                    <Projects />
+                </div>
             </main>
 
             <footer className={styles.footer}></footer>
